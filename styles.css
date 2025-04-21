@@ -8,5 +8,46 @@
     margin: 0;
     padding: 0;
     line-height: 1.5;
+    font-size: 16px;
     box-sizing: border-box;
 }  
+
+#page-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 5fr;
+}
+
+#header {
+    grid-column: 2 / span 2;
+    grid-row: 1;
+    padding-top: 20px;
+}
+
+.nav-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    background-color: rgb(246 247 251);
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-links li {
+    list-style-type: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(130, 132, 144);
+}
+
+#sidebar {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    display: grid;
+    background-color: rgb(30, 48, 61);
+}
