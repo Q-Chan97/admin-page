@@ -28,6 +28,7 @@
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
     background-color: rgb(246 247 251);
+    padding: 15px 20px 15px 30px;
 }
 
 .nav-links {
@@ -43,6 +44,37 @@
 .nav-links a {
     text-decoration: none;
     color: rgb(130, 132, 144);
+}
+
+.nav-options {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-divider {
+    width: 1px;
+    height: 100%;
+    background-color: rgb(130, 132, 144);
+}
+
+.alerts {
+    background-image: url(/project-icons/header-icons/bell-ring-outline.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+}
+
+.profile-pic {
+    background-image: url(/project-images/admin-pfp-main.png);
+    width: 70px;
+    height: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120% 120%;
+    border-radius: 50%;
+    border: 1px solid black;
 }
 
 #sidebar {
