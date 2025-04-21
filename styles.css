@@ -1,0 +1,12 @@
+@font-face {
+    font-family: admin-font;
+    src: url(font-folder/IBMPlexSans-VariableFont_wdth\,wght.woff2);
+}
+
+:root {
+    font-family: admin-font, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    box-sizing: border-box;
+}  
