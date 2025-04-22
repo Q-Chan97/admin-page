@@ -91,9 +91,16 @@
 }
 
 .side-head {
+    background-image: url(/project-icons/sidebar-icons/view-dashboard.svg);
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+.side-head p {
     color: white;
     font-size: 30px;
     font-weight: bold;
+    padding-left: 110px;
 }
 
 .side-divider {
