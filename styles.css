@@ -14,8 +14,8 @@
 
 #page-container {
     display: grid;
-    grid-template-columns: 1fr / 4fr;
-    grid-template-rows: 1fr / 4fr;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
     padding-right: 20px;
     background-color: rgba(226, 232, 240, 0.709);
     height: 100vh;
