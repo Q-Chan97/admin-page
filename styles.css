@@ -98,6 +98,12 @@
     color: white;
 }
 
+#sidebar svg {
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 30px;
+}
+
 #sidebar a {
     text-decoration: none;
 }
@@ -116,7 +122,6 @@
     font-size: 20px;
     padding-bottom: 20px;
 }
-
 
 .side-head {
     grid-row: 1 / 2;
