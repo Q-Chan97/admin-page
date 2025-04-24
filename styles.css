@@ -98,7 +98,7 @@
 }
 
 .side-head {
-    
+    grid-row: 1 / 2;
 }
 
 .side-head p {
@@ -106,6 +106,14 @@
     font-size: 30px;
     font-weight: bold;
     padding-left: 110px;
+}
+
+.side-nav {
+    grid-row: 2 / 3;
+}
+
+.side-settings {
+    grid-row: 3 / 4;
 }
 
 #main-content {
