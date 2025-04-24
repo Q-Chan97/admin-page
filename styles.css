@@ -98,11 +98,23 @@
     color: white;
 }
 
+#sidebar a {
+    text-decoration: none;
+}
+
+#sidebar a:visited {
+    color: inherit;
+}
+
+#sidebar a:hover {
+    font-weight: 900;
+}
+
 .side-nav-style {
     list-style-type: none;
-    font-weight: bold;
+    font-weight: 400;
     font-size: 20px;
-    padding: bottom;
+    padding-bottom: 20px;
 }
 
 
