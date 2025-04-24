@@ -95,7 +95,16 @@
     grid-template-rows: auto auto 1fr;
     background-color: rgb(30, 48, 61);
     padding: 30px;
+    color: white;
 }
+
+.side-nav-style {
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: bottom;
+}
+
 
 .side-head {
     grid-row: 1 / 2;
