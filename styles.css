@@ -157,12 +157,27 @@
 .content-header {
     font-size: 22px;
     font-weight: 500;
+    padding-bottom: 10px;
 }
 
 #project-holder {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     border: 1px solid red;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 250px;
+    gap: 30px;
+    padding-right: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid navy;
 }
 
 #announcements-holder {
