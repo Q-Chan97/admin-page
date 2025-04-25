@@ -150,7 +150,13 @@
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
+    padding-left: 20px;
     border: 1px solid black;
+}
+
+.content-header {
+    font-size: 22px;
+    font-weight: 500;
 }
 
 #project-holder {
