@@ -125,13 +125,14 @@
 
 .side-head {
     grid-row: 1 / 2;
+    display: flex;
+    flex-direction: row;
 }
 
 .side-head p {
     color: white;
     font-size: 30px;
     font-weight: bold;
-    padding-left: 110px;
 }
 
 .side-nav {
