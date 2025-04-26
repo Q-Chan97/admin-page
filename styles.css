@@ -232,3 +232,20 @@
     grid-row: 2 / 3;
     border: 1px solid green;
 }
+
+.trend-profile {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.trend-profile-username {
+    font-weight: bold;
+}
+
+.profile-pic-small {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
