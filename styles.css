@@ -151,7 +151,6 @@
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
     padding-left: 20px;
-    border: 1px solid black;
 }
 
 .content-header {
@@ -230,7 +229,6 @@
 #trending-holder {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-    border: 1px solid green;
 }
 
 .trend-profile {
