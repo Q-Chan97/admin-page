@@ -206,7 +206,7 @@
     grid-row: 1 / 2;
 }
 
-.announcements-card {
+.side-card {
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -217,7 +217,7 @@
     justify-content: space-between;
 }
 
-.announce-card-head {
+.side-card-head {
     font-weight: bold;
 }
 
