@@ -60,7 +60,7 @@
 .nav-options {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 input[type="text"] {
