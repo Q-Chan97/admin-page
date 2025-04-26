@@ -63,6 +63,28 @@
     justify-content: space-around;
 }
 
+input[type="text"] {
+    border: none;
+    background-color: transparent;
+    background-image: none;
+    box-shadow: none;
+}
+
+input.search-bar {
+    background-color:rgba(226, 232, 240, 0.709);
+    border-radius: 15px;
+    height: 25px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+input.search-bar::placeholder {
+    background-image: url(project-icons/header-icons/magnify.svg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
 .nav-divider {
     width: 1px;
     height: 100%;
