@@ -188,6 +188,19 @@
     font-weight: 700;
 }
 
+.card-options {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.card-options button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
 #announcements-holder {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
