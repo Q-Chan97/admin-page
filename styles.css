@@ -150,6 +150,7 @@
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
+    padding-top: 10px;
     padding-left: 20px;
 }
 
@@ -229,6 +230,7 @@
 #trending-holder {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+    padding-top: 10px;
 }
 
 .trend-profile {
